@@ -1,4 +1,4 @@
-$<!doctype html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>April Monthly Website: Gene Kelly</title>
@@ -16,13 +16,45 @@ $<!doctype html>
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="style.css"/>
     </head>
 
     <body>
         <header>
-            
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Life.html">Life</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Works.html">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="Extra.html">Extra</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
         </header>
-        <main></main>
+        <main>
+        <div class="card text-center" id="Intro">
+        <div class="card-body">
+        <h1>Gene Kelly</h1>
+        <h2>(1912 --- 1996)</h2>    
+        </div>
+        </div>
+        <img src="imgs/Background.webp" id="Background" class="img-fluid w-100"/>
+        
+
+
+
+
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
@@ -38,5 +70,6 @@ $<!doctype html>
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        <script src="script.js"></script>
     </body>
 </html>
