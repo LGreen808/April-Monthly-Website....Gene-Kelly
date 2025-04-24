@@ -10,6 +10,20 @@
 
 #EarlyLife1 {
     width: 600px;
-    height: 500px;
+    height: 550px;
 }
 
+#EarlyLife2 {
+    width: 600px;
+    height: 550px;
+}
+
+#Works {
+    background-color: lightgray;
+    border-color: lightgray;
+}
+
+#FirstMovie {
+    width: 600px;
+    height: 500px;
+}
