@@ -1,91 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>April Monthly Website: Gene Kelly</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+  <head>
+    <title>April Monthly Website: Gene Kelly</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css"/>
-    </head>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-md">
-                <div class="container-fluid">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Life.html">Life</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Works.html">Works</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-disabled="true" href="Extra.html">Extra</a>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
-        </header>
-        <main class="container-fluid">
-        <div class="card text-center" id="Intro">
-         <!--Header for the page-->
+  <body class="container-fluid">
+    <header>
+      <!--Navbar that is the same on all pages-->
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Life.html">Life</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Works.html">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true" href="Extra.html"
+                >Extra</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="w-100 p-0 m-0">
+      <div class="card text-center" id="Intro">
+        <!--Header for the page-->
         <div class="card-body">
-        <h1>Gene Kelly</h1>
-        <h2>(1912 --- 1996)</h2>    
+          <h1>Gene Kelly</h1>
+          <h2>(1912 --- 1996)</h2>
         </div>
+      </div>
+      <!--Background Image of the Page-->
+      <img src="imgs/Background.webp" id="Background" class="img-fluid w-100" />
+
+      <!--A card with changing quotes of Gene Kelly-->
+      <div class="card">
+        <div class="card-body">
+          <h2 id="Quotes"></h2>
         </div>
-        <img src="imgs/Background.webp" id="Background" class="img-fluid w-100"/>
-        
-        <div class="card">
-            <div class="card-body">
-        <h2 id="Quotes">     </h2>    
-            </div>
-            </div>
-        
-   
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <script>
+      let quotesArray = [
+        "You dance love, and you dance joy, and you dance dreams.",
+        "Just singing, singing in the rain",
+        "Let the stormy clouds chase. Everyone from the place. Come on with the rain. I have a smile on my face",
+        "If Fred Astaire is the Cary Grant of dance, I’m the Marlon Brando.",
+        "I wanted to do new things with dance, adapt it to the motion picture medium.",
+      ];
+    </script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
 
-
-
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <script>
-            var quotesArray = [
-               'You dance love, and you dance joy, and you dance dreams.',
-               'Just singing, singing in the rain',
-               'Let the stormy clouds chase. Everyone from the place. Come on with the rain. I have a smile on my face',
-               'If Fred Astaire is the Cary Grant of dance, I’m the Marlon Brando.',
-               'I wanted to do new things with dance, adapt it to the motion picture medium.'
-            ];
-           </script>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-        <script src="script.js"></script>
-    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>

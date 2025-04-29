@@ -1,6 +1,26 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 #Intro {
     background-color: lightgray;
     border-color: lightgray;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+main {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 #Life {
