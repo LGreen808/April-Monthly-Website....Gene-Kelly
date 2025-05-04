@@ -31,37 +31,37 @@ main {
 #EarlyLife1 {
     width: 600px;
     height: 550px;
-    text-align: center;
+    justify-content: center;
 }
 
 #EarlyLife2 {
     width: 600px;
     height: 500px;
-    text-align: center;
+    justify-content: center;
 }
 
 #Extra3 {
     width: 600px;
     height: 550px;
-    text-align: center;
+    justify-content: center;
 }
 
 #Extra2 {
     width: 600px;
     height: 550px;
-    text-align: center;
+    justify-content: center;
 }
 
 #Extra1 {
     width: 600px;
     height: 550px;
-    text-align: center;
+    justify-content: center;
 }
 
 #Extra4 {
     width: 400px;
     height: 500px;
-    text-align: center;
+    justify-content: center;
 }
 
 
