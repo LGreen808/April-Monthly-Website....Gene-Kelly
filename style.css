@@ -35,9 +35,26 @@ main {
 
 #EarlyLife2 {
     width: 600px;
+    height: 500px;
+}
+
+#Extra3 {
+    width: 600px;
     height: 550px;
 }
 
+#Extra2 {
+    width: 600px;
+    height: 550px;
+}
+
+#Extra1 {
+    width: 600px;
+    height: 550px;
+}
+
+
+/*This styling is for my Works Page of the Website*/
 #Works {
     background-color: lightgray;
     border-color: lightgray;
