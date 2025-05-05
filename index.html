@@ -64,29 +64,14 @@
       </div>
     </main>
     <footer>
-      <!-- place footer here -->
+      <h3>April Monthly Website...Gene Kelly</h3>
     </footer>
     <script>
-      let quotesArray = [
-        "You dance love, and you dance joy, and you dance dreams.",
-        "Just singing, singing in the rain",
-        "Let the stormy clouds chase. Everyone from the place. Come on with the rain. I have a smile on my face",
-        "If Fred Astaire is the Cary Grant of dance, I’m the Marlon Brando.",
-        "I wanted to do new things with dance, adapt it to the motion picture medium.",
+      var quotesArray = [
+       ''
       ];
+	  var randomNumber = Math.floor(Math.random() * quotesArray.length);
+	  document.getElementById('Quotes').textContent = quotesArray[randomNumber];
     </script>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
   </body>
 </html>

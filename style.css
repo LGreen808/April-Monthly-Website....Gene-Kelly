@@ -32,17 +32,15 @@ main {
     border-color: lightgray;
 }
 
-#EarlyLife1 {
-    width: 600px;
-    height: 550px;
-    justify-content: center;
-}
+
 
 #EarlyLife2 {
     width: 600px;
     height: 500px;
     justify-content: center;
 }
+
+
 
 #Extra3 {
     width: 600px;
