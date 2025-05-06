@@ -39,6 +39,10 @@ body {
      text-align: center;
 }
 
+#Life {
+    background-color: lightblue;
+}
+
 main {
     width: 100% !important;
     padding: 0 !important;
@@ -84,6 +88,9 @@ main {
     justify-content: center;
 }
 
+#carousel {
+    align-items: center;
+}
 
 
 /*This styling is for my Works Page of the Website*/
