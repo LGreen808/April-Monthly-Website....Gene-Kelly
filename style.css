@@ -14,6 +14,8 @@ body {
     padding: 0 !important;
     
 }
+
+
 #Intro {
     background-color: lightgray;
     border-color: lightgray;
@@ -39,9 +41,10 @@ body {
      text-align: center;
 }
 
-#Life {
-    background-color: lightblue;
+#Life2 {
+    background-color: white;
 }
+
 
 main {
     width: 100% !important;
