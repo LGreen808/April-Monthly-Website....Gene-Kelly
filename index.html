@@ -53,11 +53,12 @@
           <h2>(1912 --- 1996)</h2>
         </div>
       </div>
-      <!--Background Image of the Page-->
-      <img src="imgs/Background.webp" id="Background" class="img-fluid w-100" />
+      
+    <!--Background Image of Gene Kelly-->
+    <img src="imgs/Background.webp" id="Background">
 
       <!--A card with changing quotes of Gene Kelly-->
-      <div class="card">
+      <div class="card w-100 mt-0 text-center" id="Card2">
         <div class="card-body">
           <h2 id="Quotes"></h2>
         </div>
@@ -66,6 +67,7 @@
     <footer>
      
     </footer>
+    <!--The JavaScript for the card with the changing quotes of Gene Kelly-->
     <script>
       var quotesArray = [
        '"Let the stormy clouds chase. Everyone from the place. Come on with the rain. I have a smile on my face"', 
@@ -73,8 +75,7 @@
        '"If Fred Astaire is the Cary Grant of dance, I’m the Marlon Brando."', 
        '"Just singing, singing in the rain"', 
        '“I got rhythm, I got music, I got my gal, who could ask for anything more?”',
-       '"I got started dancing because I knew it was one way to meet girls"'
-      ];
+       '"I got started dancing because I knew it was one way to meet girls"'];
 	  var randomNumber = Math.floor(Math.random() * quotesArray.length);
 	  document.getElementById('Quotes').textContent = quotesArray[randomNumber];
     </script>

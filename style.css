@@ -12,6 +12,7 @@ body {
     height: 100%;
     margin: 0 !important;
     padding: 0 !important;
+    
 }
 #Intro {
     background-color: lightgray;
@@ -19,6 +20,23 @@ body {
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
+    z-index: 1;
+}
+
+#Background {
+    position: relative;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 0;
+}
+
+#Quotes {
+    position: absolute;
+}
+
+#Card2 {
+    background-color: lightgray;
 }
 
 main {
