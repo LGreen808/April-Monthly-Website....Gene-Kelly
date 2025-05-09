@@ -43,9 +43,16 @@ body {
      text-align: center;
 }
 
+#Life1 {
+    border-color: black;
+}
+
+
+
+
+
 #Life2 {
     background-color: lightgray;
-    border-color: black;
 }
 
 
