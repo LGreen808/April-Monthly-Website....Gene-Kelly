@@ -108,33 +108,56 @@ main {
 /*This styling is for my Works Page of the Website*/
 #Works {
     background-color: lightgray;
-    border-color: lightgray;
+    border-color: black;
+    border-width: thick;
 }
 /*Each background color of the card is a color I feel can be associated and or seen from the film or movie image*/
 #First {
-    background-color: gray;
+    background-color: white;
+    border-color: black;
+    border-width: thick;
 }
 
 #Second {
-    background-color: orange; 
+    background-color: orange;
+    border-color: black;
+    border-width: thick;
 }
 
 #Third {
     background-color: yellow;
+    border-color: black;
+    border-width: thick;
 }
 
 #Fourth {
     background-color: lightblue;
+    border-color: black;
+    border-width: thick;
 }
 
 #Fifth {
     background-color: burlywood;
+    border-color: black;
+    border-width: thick;
+
 }
                                                                                                                                                          
 #Sixth {
     background-color: blue;
+    border-color: black;
+    border-width: thick; 
 }
 
 #works {
     background-color: lightskyblue;
 }
+
+.trailer1 {
+    color: darkblue;
+}
+
+.trailer2 {
+    color: darkblue;
+}
+
