@@ -1,3 +1,7 @@
+header {
+    background-color: darkblue;
+}
+
 nav {
     align-items: center;
     justify-content: center;
@@ -31,6 +35,18 @@ body {
     
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+footer p {
+    margin: 0;
+}
 
 #Intro {
     background-color: lightgray;
